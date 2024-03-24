@@ -1,0 +1,27 @@
+section#banner {
+  background-color: #3617CE;
+}
+section#banner .wrap {
+  padding: 10px;
+}
+section#banner .wrap a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  color: white;
+}
+section#banner .wrap a h2 {
+
+}
+section#banner .wrap a p {
+
+  line-height: 5;
+  font-size: 23px;
+}
+section#banner .wrap a span {
+
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}

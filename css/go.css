@@ -1,0 +1,96 @@
+section#go {
+
+}
+section#go .wrap {
+
+  position: relative;
+  padding-top: 200px;
+}
+section#go .wrap h2 {
+
+}
+section#go .wrap ul.golist {
+
+}
+section#go .wrap ul.golist li {
+  justify-content: space-evenly;
+  align-items: center;
+}
+section#go .wrap ul.golist li.top {
+
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 3px 3px 3px #ccc;
+  position: absolute;
+  top: -70px;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+section#go .wrap ul.golist li.under {
+  padding: 10px 0 30px 0;
+  width: auto;
+}
+section#go .wrap ul.golist li h3 {
+
+}
+section#go .wrap ul.golist li p {
+
+}
+section#go .wrap ul.golist li ul.btv {
+  text-align: center;
+  padding: 20px 0;
+}
+section#go .wrap ul.golist li ul.btv li {
+
+}
+section#go .wrap ul.golist li ul.btv li a {
+  font-size: 18px;
+  padding: 20px;
+  display: block;
+}
+section#go .wrap ul.golist li ul.btv li a::before{
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+section#go .wrap ul.golist li ul.btv li:nth-child(1) a::before{
+ background-image: url(../img/go1.svg);
+}
+section#go .wrap ul.golist li ul.btv li:nth-child(2) a::before{
+  background-image: url(../img/go2.svg);
+}
+section#go .wrap ul.golist li ul.btv li:nth-child(3) a::before{
+  background-image: url(../img/go3.svg);
+}
+section#go .wrap ul.golist li ul.btv li:nth-child(4) a::before{
+  background-image: url(../img/go4.svg);
+}
+section#go .wrap ul.golist li ul.btv li:nth-child(5) a::before{
+  background-image: url(../img/go5.svg);
+}
+section#go .wrap ul.golist li ul.menu {
+
+  gap: 10px;
+}
+section#go .wrap ul.golist li ul.menu li {
+
+}
+section#go .wrap ul.golist li ul.menu li:hover a{
+  border: 1px solid #3617CE;
+  color: #3617CE
+}
+section#go .wrap ul.golist li ul.menu li a {
+
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  line-height: 5;
+  transition: 0.2s;
+}

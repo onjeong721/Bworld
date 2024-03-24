@@ -1,0 +1,89 @@
+section#best {
+  
+  background-color: #F5F5F7;
+}
+section#best .wrap {
+  
+  padding: 80px 0;
+}
+section#best .wrap h2.h2 {
+  
+}
+section#best .wrap ul.bestlist {
+  
+  font-size: 18px;
+  justify-content: space-between;
+  gap: 30px;
+}
+section#best .wrap ul.bestlist >li {
+  
+  text-align: center;
+  padding: 36px 30px 30px;
+  border: 2px solid #3617CE;
+  border-radius: 15px;
+  background-color: white;
+  height: 490px;
+  box-sizing: border-box;
+  width: calc(100% / 3);
+  display: grid;
+  grid-template-rows: repeat(4,auto);
+  justify-items: center;
+  align-items: center;
+}
+section#best .wrap ul.bestlist li h4 {
+  
+  font-size: 24px;
+  font-weight: bold;
+  white-space: nowrap;
+  letter-spacing: -1.8px;
+}
+section#best .wrap ul.bestlist li ul.giga {
+  
+}
+section#best .wrap ul.bestlist li ul.giga li {
+  
+}
+section#best .wrap ul.bestlist li p.price {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+section#best .wrap ul.bestlist li p.price del {
+  
+}
+section#best .wrap ul.bestlist li p.price strong {
+  
+  font-size: 23px;
+  color: red;
+}
+section#best .wrap ul.bestlist li p.gigaP {
+  
+  text-align: start;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #777;
+}
+section#best .wrap ul.bestlist li span {
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+section#best .wrap ul.bestlist li span a { 
+  border: 1px solid black;
+  border-radius: 3px;
+  line-height: 2;
+  padding: 5px 30px;
+}
+section#best .wrap ul.bestlist li span a:not(:last-of-type){
+  background-color: #3617CE;
+  color: white;
+}
+section#best .wrap ul.bestlist li span a:nth-child(3) { 
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}

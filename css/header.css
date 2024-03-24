@@ -1,0 +1,122 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+}
+header .wrap {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+  align-items: center;
+  column-gap: 15px;
+  height: 100%;
+  
+}
+header .wrap h1 {
+  font-size: 0;
+}
+header .wrap h1::after{
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: url(../img/logo.ico) no-repeat center /contain;
+}
+header .wrap ul.headline {
+  padding: 0 50px;
+}
+header .wrap ul.headline li {
+
+}
+header .wrap ul.headline li a {
+  font-size: 20px;
+  line-height: 5;
+  padding: 20px;
+}
+header .wrap .sublist{
+
+}
+header .wrap .sublist .center{
+  
+}
+header .wrap .sublist .center .menu{
+  
+}
+header .wrap .sublist .center .menu h2{
+  
+}
+header .wrap .sublist .center .menu ul{
+  
+}
+header .wrap .sublist .center .menu ul li{
+  
+} 
+header .wrap .sublist .center .menu ul li h3{
+  
+} 
+header .wrap .sublist .center .menu ul li h3 a{
+  
+} 
+header .wrap .sublist .center .menu ul li ul.inmenu{
+  
+}
+header .wrap .sublist .center .menu ul li ul.inmenu li{
+  
+}
+header .wrap .sublist .center .menu ul li ul.inmenu li a{
+  
+} 
+header .wrap ul.info {
+
+  grid-column: 4;
+  gap: 5px;
+}
+header .wrap ul.info li {
+
+}
+header .wrap ul.info li a {
+
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+header .wrap span.more {
+
+  grid-column: 5;
+}
+header .wrap span.more a {
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  display: block;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+}
+header .wrap span.more a h3{
+  display: none;
+}
+header .wrap span.more a:nth-child(1){
+  
+  background: url(../img/login.png) no-repeat center /contain;
+}
+header .wrap span.more a:nth-child(2){
+  
+  background: url(../img/search.png) no-repeat center /contain;
+}
+header .wrap span.more a:nth-child(3){
+  
+}
+header .wrap span.more a span{
+  height: 3px;
+  width: 25px;
+  display: block;
+  background-color: black;
+}
+header .wrap span.more a span:last-child{
+  width: 15px;
+}

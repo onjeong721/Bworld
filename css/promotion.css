@@ -1,0 +1,64 @@
+section#promotion {
+
+}
+section#promotion .wrap {
+  padding: 80px 0;
+}
+section#promotion .wrap .slick-list{
+  padding: 100px 0;
+}
+section#promotion .wrap h2 {
+
+}
+section#promotion .wrap .proList {
+}
+section#promotion .wrap .proList article {
+  background: #FFEEF0;
+  width: 1320px;
+  height: 200px;
+  padding: 80px 80px;
+  position: relative;
+  border-radius: 20px;
+}
+section#promotion .wrap .proList article:nth-child(2){
+  background-color: #FFF4E5;
+}
+section#promotion .wrap .proList article:nth-child(3){
+  background-color: #FFF9E5;
+}
+section#promotion .wrap .proList article:nth-child(4){
+  background-color: #EAF6FE;
+}
+/* section#promotion .wrap .proList article:not(:first-child){
+  display: none;
+} */
+section#promotion .wrap .proList article::after{
+  display: block;
+  content: "";
+  background: url(../img/promotion.png) no-repeat center /cover;
+  width: 760px;
+  height: 580px;
+  position: absolute;
+  right: 5%;
+  top: -30%;
+  z-index: 1;
+}
+section#promotion .wrap .proList article:nth-child(2)::after{
+  background: url(../img/promotion2.png) no-repeat center /cover;
+}
+section#promotion .wrap .proList article:nth-child(3)::after{
+  background: url(../img/promotion3.png) no-repeat center /cover;
+}
+section#promotion .wrap .proList article:nth-child(4)::after{
+  background: url(../img/promotion4.png) no-repeat center /cover;
+}
+section#promotion .wrap .proList article h4 {
+
+  line-height: 1.3;
+  font-weight: bold;
+}
+section#promotion .wrap .proList article a {
+
+  margin-top: 30px;
+  display: block;
+}

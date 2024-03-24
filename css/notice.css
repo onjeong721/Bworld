@@ -1,0 +1,35 @@
+section#notice {
+  padding: 50px 0;
+}
+section#notice .wrap {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+  column-gap: 30px;
+}
+section#notice .wrap h2 {
+
+  font-weight: bold;
+}
+section#notice .wrap h3 {
+
+}
+section#notice .wrap h3 a {
+
+  line-height: 4;
+  color: #555;
+}
+section#notice .wrap a {
+
+}
+section#notice .wrap >a::after{
+  display: inline-block;
+  content: "";
+  background: url(../img/naviR.svg) no-repeat center /contain;
+  width: 30px;
+  height: 30px;
+  vertical-align: -8px;
+}
