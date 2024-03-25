@@ -272,6 +272,7 @@
 
 ## 페이지별 기능
 ![setProfile](https://github.com/onjeong721/Bworld/assets/150096277/c3b595a4-b118-4d85-a953-4ad54e162ddd)
+![qksdmdgud](https://github.com/onjeong721/Bworld/assets/150096277/ed298d74-caf4-4f0d-8256-037c92a77448)
 ## 오류개선
 
 ## 후기
