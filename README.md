@@ -1,4 +1,4 @@
-# Bworld
+# Bworld 디자인클론코딩 반응형 웹 페이지 제작
 <img src="https://github.com/onjeong721/Bworld/assets/150096277/ff58f83a-3c0f-494f-8269-f48d0ad5b31f" width="50%" height="auto"/>
 
 ## 프로젝트 소개
