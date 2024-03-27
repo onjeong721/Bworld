@@ -35,9 +35,8 @@
 
 * 모바일<br>
 ![모바일](https://github.com/onjeong721/Bworld/assets/150096277/ed298d74-caf4-4f0d-8256-037c92a77448)
-## 오류개선
 
-## 후기
+<br>
 
 ## 프로젝트 구조
 ```
